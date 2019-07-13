@@ -44,6 +44,7 @@ public class LoginTest {
 
         driver.findElement(By.id("ctl00_logout")).click();
         Assert.assertEquals(driver.getTitle(),"Web Orders Login");
+        System.out.println("Thank you");
 
     }
 
